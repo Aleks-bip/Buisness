@@ -1,55 +1,74 @@
 ---
-title: Trillion-Dollar Workflow (retest)
+title: "Trillion-Dollar Workflow — Retest"
 slug: trillion-dollar-workflow-retest
-type: video
 source: "https://youtu.be/jwtpMSRAPAQ"
-date_published: unknown
-date_processed: 2026-05-18
-status: extraction_failed
-themes: []
+type: video
+published: unknown
+processed: 2026-05-18
+status: stub
+themes:
+  - "[[Agentic Workflow]]"
+  - "[[Workflow Completion]]"
+  - "[[Implementation Layer]]"
 frameworks: []
 terminology: []
 ---
 
-# Trillion-Dollar Workflow (retest)
+# Trillion-Dollar Workflow — Retest
 
-> [!warning] Извлечение не удалось
-> Все запросы к NotebookLM завершились ошибкой браузера (`browserType.launchPersistentContext: Target page, context or browser has been closed`). Содержимое видео не было получено. Требуется повторная обработка.
+> **Статус:** извлечение провалилось (MCP call failed по всем секциям). Заметка-заглушка — требует повторной обработки источника.
+
+---
 
 ## Тезисы
 
 TBD
 
-> Открытый вопрос: каков центральный тезис видео — описание конкретного trillion-dollar workflow или обобщённый аргумент о масштабе [[Agentic Workflow]]?
+> Открытый вопрос: что конкретно утверждает автор о «триллионодолларовом» масштабе — это оценка рынка [[Agentic Workflow]], стоимость неавтоматизированных процессов, или что-то иное?
 
-## Ключевые термины
+---
+
+## Терминология
 
 | RU | EN | Определение |
 |----|----|-------------|
 | TBD | — | — |
 
+---
+
 ## Фреймворки и модели
 
 TBD
 
-> Открытый вопрос: предлагается ли в видео конкретная архитектура [[Implementation Layer]] или только концептуальная карта рынка?
+> Открытый вопрос: используется ли здесь какая-либо известная схема (например, [[Implementation Fabric]] или [[Harness]])?
 
-## Формулы и цитаты
+---
+
+## Формулы и ключевые утверждения
 
 TBD
 
+---
+
 ## Открытые вопросы
 
-- Почему slug содержит "retest" — это повторный просмотр уже обработанного видео?
-- Какие [[Hyperscalers]] или [[Frontier Labs]] упоминаются как игроки trillion-dollar рынка?
-- Связан ли тезис с [[Workflow Completion]] как метрикой оценки [[Moat]]?
+- Какова центральная претензия видео — переосмысление [[Workflow Completion]] или новый взгляд на [[Moat]]?
+- Почему slug содержит «retest» — это повторный разбор ранее рассмотренной темы?
+- Есть ли связь с [[Forward Deployed Engineer]] как каналом внедрения?
+
+---
 
 ## Что использовать для нашего портфеля
 
-TBD — данные недоступны. После повторного извлечения оценить применимость к позиционированию как [[Implementation Fabric]] и к [[Business Object]]-центричным продажам через PE-канал.
+TBD — данные недоступны.
 
-## Источник
+> Открытый вопрос: если тема — масштабируемые [[Agentic Workflow]] через [[Implementation Layer]], как это соотносится с нашим подходом к [[Business Object]]-ориентированной автоматизации и PE как каналом продаж?
 
-- Видео: https://youtu.be/jwtpMSRAPAQ
-- Обработано: 2026-05-18
-- Статус: требует повторного запуска NotebookLM (ошибка headless Chrome, exitCode=21)
+---
+
+## Метаданные обработки
+
+```
+source_error: MCP call failed (все секции)
+retry_needed: true
+```
