@@ -1,70 +1,80 @@
 ---
-title: "Trillion Dollar Workflow (retest)"
+title: "Trillion-Dollar Workflow (Retest)"
 slug: trillion-dollar-workflow-retest
+type: video
 source: "https://youtu.be/jwtpMSRAPAQ"
 published: unknown
 processed: 2026-05-18
-type: video
 status: extraction-failed
-themes: []
+themes:
+  - "[[Agentic Workflow]]"
+  - "[[Workflow Completion]]"
+  - "[[Implementation Layer]]"
 frameworks: []
 terminology: []
 ---
 
-# Trillion Dollar Workflow (retest)
+# Trillion-Dollar Workflow — Retest
 
-> **Статус извлечения:** все секции вернули `Failed to authenticate session` — данные не получены. Заметка создана как заглушка для повторной обработки.
+> **Статус:** Извлечение через NotebookLM завершилось с ошибкой (Playwright/Chromium не запустился). Содержимое видео не получено. Структура заполнена по доступным метаданным.
+
+## Источник
+
+| Поле | Значение |
+|---|---|
+| URL | https://youtu.be/jwtpMSRAPAQ |
+| Опубликовано | unknown |
+| Обработано | 2026-05-18 |
+| Slug | `trillion-dollar-workflow-retest` |
 
 ---
 
-## Тезисы
+## Ключевые тезисы
 
-TBD — извлечение не удалось.
+TBD — данные не извлечены.
 
-> **Открытый вопрос:** Что конкретно автор называет «trillion-dollar workflow» — [[Agentic Workflow]] как категория, или конкретная бизнес-автоматизация?
+> **Открытый вопрос:** Что именно «retested» в этом видео по сравнению с оригинальным «trillion-dollar workflow» — методология, результаты, или конкретный стек инструментов?
 
 ---
 
 ## Терминология
 
-| RU | EN | Определение | Wikilink |
-|----|----|-------------|----------|
-| TBD | TBD | — | — |
+| EN | RU | Примечание |
+|---|---|---|
+| TBD | TBD | — |
 
 ---
 
 ## Фреймворки и модели
 
-TBD — извлечение не удалось.
+TBD — данные не извлечены.
 
-> **Открытый вопрос:** Присутствует ли в видео слоистая модель (например, [[Implementation Layer]] / [[Implementation Fabric]])?
+> **Открытый вопрос:** Какие конкретные workflow-паттерны рассматриваются — линейные цепочки, мульти-агентные сети, или что-то иное?
 
 ---
 
 ## Формулы и цитаты
 
-TBD — извлечение не удалось.
+TBD — данные не извлечены.
 
 ---
 
 ## Открытые вопросы
 
-- [ ] Повторить извлечение через NotebookLM после устранения ошибки аутентификации.
-- [ ] Уточнить: видео связано с [[Workflow Completion]] или скорее с [[Agentic Workflow]]?
-- [ ] Проверить, упоминается ли [[Moat]] в контексте workflow-автоматизации.
+- TBD — не извлечены из источника.
 
 ---
 
 ## Что использовать для нашего портфеля
 
-TBD до получения данных.
+TBD — невозможно синтезировать без содержимого видео.
 
-> **Открытый вопрос:** Если «trillion-dollar workflow» — это тезис о масштабе рынка [[Agentic Workflow]], как это позиционирует нас как [[Implementation Fabric]]-провайдера в глазах PE-канала?
+> **Открытый вопрос:** Если видео описывает workflow стоимостью в триллион — применимо ли это к [[Implementation Layer]] для mid-market через [[Forward Deployed Engineer]] как канал, или это enterprise-only сценарий?
 
 ---
 
-## Метаданные обработки
+## Техническая заметка
 
-- **Источник:** https://youtu.be/jwtpMSRAPAQ
-- **Ошибка:** `Failed to authenticate session` во всех секциях NotebookLM
-- **Следующий шаг:** повторный прогон после сброса сессии NotebookLM
+Все запросы к NotebookLM упали с `browserType.launchPersistentContext: Target page, context or browser has been closed`. Необходимо починить Playwright/Chromium профиль перед повторной обработкой:
+- Путь профиля: `C:\Users\Aleks\AppData\Local\notebooklm-mcp\Data\chrome_profile`
+- Рекомендация: пересоздать профиль или проверить права на запуск sandbox-процессов.
