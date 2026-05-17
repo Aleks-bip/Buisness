@@ -1,63 +1,68 @@
 ---
-title: Trillion Dollar Workflow — Retest
-slug: trillion-dollar-workflow-retest
-type: video
+title: Trillion Dollar Workflow (retest)
 source: https://youtu.be/jwtpMSRAPAQ
 published: unknown
 processed: 2026-05-18
+slug: trillion-dollar-workflow-retest
+type: video
+status: extraction-failed
 themes: []
 frameworks: []
 terminology: []
 ---
 
-# Trillion Dollar Workflow — Retest
+# Trillion Dollar Workflow (retest)
 
-> **Источник:** [YouTube](https://youtu.be/jwtpMSRAPAQ) · дата публикации неизвестна · обработано 2026-05-18
+> Источник: [YouTube](https://youtu.be/jwtpMSRAPAQ) · Опубликовано: unknown · Обработано: 2026-05-18
+
+---
+
+## Статус извлечения
+
+**Ошибка:** NotebookLM вернул `Failed to authenticate session` по всем секциям (theses, terms, frameworks, formulas, open_questions).
+
+Данные недоступны. Требуется повторное извлечение после восстановления сессии NotebookLM.
 
 ---
 
 ## Тезисы
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
-> Открытый вопрос: какой центральный тезис видео — переосмысление оценки стоимости [[Agentic Workflow]]-рынка или критика конкретной методологии?
+> Открытый вопрос: Что именно рассматривается в видео как «trillion-dollar workflow» и на каком уровне стека — модельном, [[Agentic Workflow]], или [[Implementation Layer]]?
 
 ---
 
 ## Терминология
 
-TBD — данные не извлечены.
-
-> Открытый вопрос: вводятся ли в видео новые определения [[Workflow Completion]] или [[Implementation Layer]], отличные от принятых в vault?
-
----
-
-## Фреймворки
-
-TBD — данные не извлечены.
-
-> Открытый вопрос: предлагается ли в видео собственный фреймворк оценки или это критика существующего?
+| RU | EN | Wikilink |
+|---|---|---|
+| TBD | — | — |
 
 ---
 
-## Формулы / цитаты
+## Фреймворки и модели
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
-> Открытый вопрос: есть ли в видео численные оценки рынка или это качественный анализ?
+---
+
+## Формулы и цитаты
+
+TBD — извлечение не удалось.
 
 ---
 
 ## Открытые вопросы
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
-> Открытый вопрос: какие предположения из оригинального «trillion dollar workflow» тезиса пересматриваются?
+> Открытый вопрос: Пересекается ли тезис о «trillion-dollar workflow» с концепцией [[Workflow Completion]] и [[Moat]]?
 
 ---
 
 ## Что использовать для нашего портфеля
 
-TBD — недостаточно данных для интерпретации.
+TBD — данных недостаточно для интерпретации под контекст AI-интегратора, [[Implementation Fabric]], [[Business Object]], PE как канала.
 
-> Открытый вопрос: если видео пересматривает оценку рынка [[Agentic Workflow]], как это меняет приоритизацию внедрений в [[Implementation Layer]] для наших клиентов?
+> Открытый вопрос: Как framing «trillion-dollar» соотносится с нашим позиционированием на [[Implementation Layer]] и продажами через [[Forward Deployed Engineer]]?
