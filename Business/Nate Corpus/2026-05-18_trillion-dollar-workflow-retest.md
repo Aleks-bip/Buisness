@@ -1,59 +1,57 @@
 ---
-title: Trillion-Dollar Workflow (retest)
+title: "Trillion Dollar Workflow — Retest"
 slug: trillion-dollar-workflow-retest
 type: video
-source: https://youtu.be/jwtpMSRAPAQ
-published: unknown
-processed: 2026-05-18
-status: extraction-failed
+source: "https://youtu.be/jwtpMSRAPAQ"
+date_published: unknown
+date_processed: 2026-05-18
+status: stub
+extraction_status: failed
 themes: []
 frameworks: []
 terminology: []
 ---
 
-# Trillion-Dollar Workflow (retest)
+# Trillion Dollar Workflow — Retest
 
-> Источник: [YouTube](https://youtu.be/jwtpMSRAPAQ) · Обработано: 2026-05-18
-
-> [!warning] Извлечение не удалось
-> Все пять запросов к NotebookLM завершились ошибкой таймаута: overlay-backdrop перекрывал `textarea.query-box-input` и не давал кликнуть. Все разделы ниже — заглушки, требуется повторный прогон.
-
----
+> **Статус извлечения:** NotebookLM не смог обработать источник — все запросы завершились таймаутом (overlay intercepted pointer events). Содержимое ниже — структурная заготовка. Перезапустить ingest после устранения проблемы с UI-автоматизацией.
 
 ## Тезисы
 
-TBD — данные не извлечены.
+TBD
 
-> Открытый вопрос: какой именно аргумент о «триллионном» масштабе [[Agentic Workflow|агентных рабочих процессов]] выдвигает автор и на каких цифрах он основан?
-
----
+> Открытый вопрос: что именно является «триллионным» в данном workflow — объём рынка, экономия операционных затрат, или совокупная стоимость автоматизируемых бизнес-процессов?
 
 ## Терминология
 
-| RU | EN | Определение |
-|----|----|-------------|
-| TBD | — | — |
+| RU | EN | Определение | Wikilink |
+|----|----|-------------|---------|
+| TBD | — | — | — |
 
----
+## Фреймворки и модели
 
-## Фреймворки
+TBD
 
-TBD — данные не извлечены.
+> Открытый вопрос: какой фреймворк лежит в основе — [[Agentic Workflow]], цепочка инструментов, или что-то иное?
 
----
+## Формулы и цитаты
 
-## Формулы / цитаты
+TBD
 
-TBD — данные не извлечены.
+## Связи с vault
 
----
-
-## Открытые вопросы
-
-TBD — данные не извлечены.
-
----
+- [[Agentic Workflow]] — вероятно центральная тема по контексту slug
+- [[Workflow Completion]] — метрика успеха агентных процессов
+- [[Implementation Layer]] — слой реализации для подобных workflow
 
 ## Что использовать для нашего портфеля
 
-TBD — для интерпретации под контекст AI-интегратора, [[Implementation Layer]], [[Business Object]] и [[Forward Deployed Engineer|PE как канала]] необходимо повторное успешное извлечение из источника.
+TBD — данные не извлечены.
+
+> Открытый вопрос: применим ли описанный workflow как шаблон для [[Implementation Fabric]] в клиентских проектах, или это скорее ориентир для [[Forward Deployed Engineer]]?
+
+## Открытые вопросы
+
+- [ ] Повторить ingest: устранить таймаут NotebookLM (backdrop overlay блокирует клик по `textarea.query-box-input`)
+- [ ] Уточнить дату публикации видео
+- [ ] После успешного извлечения заполнить все разделы выше
