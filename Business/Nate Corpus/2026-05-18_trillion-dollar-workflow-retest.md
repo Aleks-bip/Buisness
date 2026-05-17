@@ -1,79 +1,55 @@
 ---
-
-```markdown
----
 title: Trillion-Dollar Workflow (retest)
 slug: trillion-dollar-workflow-retest
 type: video
 source: "https://youtu.be/jwtpMSRAPAQ"
-published: unknown
-processed: 2026-05-18
-status: extraction-failed
-themes:
-  - "[[Agentic Workflow]]"
-  - "[[Workflow Completion]]"
-  - "[[Implementation Layer]]"
+date_published: unknown
+date_processed: 2026-05-18
+status: extraction_failed
+themes: []
 frameworks: []
 terminology: []
 ---
 
 # Trillion-Dollar Workflow (retest)
 
-> Источник: https://youtu.be/jwtpMSRAPAQ · Обработано: 2026-05-18
-
----
-
-## Статус извлечения
-
-**Извлечение провалилось.** NotebookLM MCP не смог запустить браузер (Chrome завершился с exitCode=21 на всех 5 запросах). Данных нет ни по одному разделу.
-
----
+> [!warning] Извлечение не удалось
+> Все запросы к NotebookLM завершились ошибкой браузера (`browserType.launchPersistentContext: Target page, context or browser has been closed`). Содержимое видео не было получено. Требуется повторная обработка.
 
 ## Тезисы
 
-TBD — данные не извлечены.
+TBD
 
-> Открытый вопрос: что именно называется «trillion-dollar workflow» — конкретный класс бизнес-процессов, или тезис об общем объёме рынка автоматизации?
+> Открытый вопрос: каков центральный тезис видео — описание конкретного trillion-dollar workflow или обобщённый аргумент о масштабе [[Agentic Workflow]]?
 
----
+## Ключевые термины
 
-## Терминология
+| RU | EN | Определение |
+|----|----|-------------|
+| TBD | — | — |
 
-| RU | EN | Определение | Wikilink |
-|----|----|-------------|----------|
-| TBD | — | — | — |
+## Фреймворки и модели
 
----
+TBD
 
-## Фреймворки
+> Открытый вопрос: предлагается ли в видео конкретная архитектура [[Implementation Layer]] или только концептуальная карта рынка?
 
-TBD — данные не извлечены.
+## Формулы и цитаты
 
-> Открытый вопрос: предлагается ли в видео конкретный фреймворк для приоритизации workflow-автоматизации по объёму рынка?
-
----
-
-## Формулы / цитаты
-
-TBD — данные не извлечены.
-
-> Открытый вопрос: есть ли в видео числовые оценки (TAM, ROI, временные горизонты)?
-
----
+TBD
 
 ## Открытые вопросы
 
-1. Почему Chrome завершается с exitCode=21 при headless-запуске — конфликт профиля или блокировка процесса?
-2. Связан ли «trillion-dollar workflow» с тезисом [[Workflow Completion]] (полное замещение человека в процессе) или с [[Agentic Workflow]] как инструментальным слоем?
-3. Какие [[Business Object]] фигурируют как цели автоматизации?
-
----
+- Почему slug содержит "retest" — это повторный просмотр уже обработанного видео?
+- Какие [[Hyperscalers]] или [[Frontier Labs]] упоминаются как игроки trillion-dollar рынка?
+- Связан ли тезис с [[Workflow Completion]] как метрикой оценки [[Moat]]?
 
 ## Что использовать для нашего портфеля
 
-TBD — без контента из видео интерпретация невозможна.
+TBD — данные недоступны. После повторного извлечения оценить применимость к позиционированию как [[Implementation Fabric]] и к [[Business Object]]-центричным продажам через PE-канал.
 
-Гипотеза по slug: если тезис — «определённые [[Agentic Workflow]] генерируют триллионный рынок» — это прямой аргумент для позиционирования [[Implementation Layer]] как точки входа для PE-канала: мы не продаём AI, мы продаём доступ к конкретному классу workflow с измеримым экономическим весом.
+## Источник
 
-**Следующий шаг:** повторить извлечение после починки NotebookLM MCP (проверить chrome_profile lock, запустить Chrome вручную для прогрева профиля).
-```
+- Видео: https://youtu.be/jwtpMSRAPAQ
+- Обработано: 2026-05-18
+- Статус: требует повторного запуска NotebookLM (ошибка headless Chrome, exitCode=21)
