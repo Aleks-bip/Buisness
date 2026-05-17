@@ -1,22 +1,19 @@
 ---
-title: "Trillion-Dollar Workflow — Retest"
+title: Trillion-Dollar Workflow (retest)
 slug: trillion-dollar-workflow-retest
-source: "https://youtu.be/jwtpMSRAPAQ"
+source: https://youtu.be/jwtpMSRAPAQ
 type: video
 published: unknown
 processed: 2026-05-18
-status: stub
-themes:
-  - "[[Agentic Workflow]]"
-  - "[[Workflow Completion]]"
-  - "[[Implementation Layer]]"
+status: extraction-failed
+themes: []
 frameworks: []
 terminology: []
 ---
 
-# Trillion-Dollar Workflow — Retest
+# Trillion-Dollar Workflow (retest)
 
-> **Статус:** извлечение провалилось (MCP call failed по всем секциям). Заметка-заглушка — требует повторной обработки источника.
+> **Статус извлечения:** все пять запросов к NotebookLM завершились ошибкой `browserType.launchPersistentContext: Target page, context or browser has been closed`. Контент из источника не получен.
 
 ---
 
@@ -24,7 +21,7 @@ terminology: []
 
 TBD
 
-> Открытый вопрос: что конкретно утверждает автор о «триллионодолларовом» масштабе — это оценка рынка [[Agentic Workflow]], стоимость неавтоматизированных процессов, или что-то иное?
+> **Открытый вопрос:** Что именно утверждает автор о «триллионном рабочем процессе» — речь о масштабе рынка автоматизации, конкретной архитектуре [[Agentic Workflow]], или о бизнес-кейсе для [[Implementation Layer]]?
 
 ---
 
@@ -32,19 +29,19 @@ TBD
 
 | RU | EN | Определение |
 |----|----|-------------|
-| TBD | — | — |
+| TBD | TBD | — |
 
 ---
 
-## Фреймворки и модели
+## Фреймворки
 
 TBD
 
-> Открытый вопрос: используется ли здесь какая-либо известная схема (например, [[Implementation Fabric]] или [[Harness]])?
+> **Открытый вопрос:** Предлагается ли в видео конкретный фреймворк построения [[Agentic Workflow]] или это обзорная лекция о [[Workflow Completion]]?
 
 ---
 
-## Формулы и ключевые утверждения
+## Формулы / цитаты
 
 TBD
 
@@ -52,23 +49,21 @@ TBD
 
 ## Открытые вопросы
 
-- Какова центральная претензия видео — переосмысление [[Workflow Completion]] или новый взгляд на [[Moat]]?
-- Почему slug содержит «retest» — это повторный разбор ранее рассмотренной темы?
-- Есть ли связь с [[Forward Deployed Engineer]] как каналом внедрения?
+- [ ] Повторить извлечение после устранения ошибки Chrome (`exitCode=21` — браузер закрывается до завершения сессии).
+- [ ] Проверить: видео доступно публично? Возможно, требуется авторизованный профиль Chrome.
+- [ ] Связано ли это видео с ранее обработанными материалами по [[Agentic Workflow]] / [[Implementation Fabric]]?
 
 ---
 
 ## Что использовать для нашего портфеля
 
-TBD — данные недоступны.
+TBD — раздел заполняется после успешного извлечения данных.
 
-> Открытый вопрос: если тема — масштабируемые [[Agentic Workflow]] через [[Implementation Layer]], как это соотносится с нашим подходом к [[Business Object]]-ориентированной автоматизации и PE как каналом продаж?
+> **Открытый вопрос:** Применима ли концепция «триллионного воркфлоу» как positioning-аргумент для AI-интегратора в разговоре с клиентами через PE-канал?
 
 ---
 
-## Метаданные обработки
+## Мета
 
-```
-source_error: MCP call failed (все секции)
-retry_needed: true
-```
+- **Причина повторной обработки (retest):** предыдущая попытка также завершилась ошибкой извлечения.
+- **Следующий шаг:** перезапустить NotebookLM MCP после проверки состояния Chrome-профиля (`C:\Users\Aleks\AppData\Local\notebooklm-mcp\Data\chrome_profile`).
