@@ -1,75 +1,66 @@
 ---
-title: "Trillion-Dollar Workflow — Retest"
+title: "Trillion-Dollar Workflow (retest)"
 slug: trillion-dollar-workflow-retest
-type: video
 source: "https://youtu.be/jwtpMSRAPAQ"
-published: unknown
-processed: 2026-05-18
-status: extraction-failed
-themes:
-  - "[[Agentic Workflow]]"
-  - "[[Workflow Completion]]"
-  - "[[Implementation Layer]]"
+type: video
+date_published: unknown
+date_processed: 2026-05-18
+status: extraction_failed
+themes: []
 frameworks: []
 terminology: []
 ---
 
-# Trillion-Dollar Workflow — Retest
+# Trillion-Dollar Workflow (retest)
 
-> **Статус извлечения: FAILED**
-> NotebookLM не смог открыть страницу (Chrome headless падал с exitCode=21 на всех пяти запросах).
-> Содержательных данных нет — заметка-заглушка для повторной обработки.
+> **Статус:** Извлечение данных не выполнено — NotebookLM MCP падал при каждом запросе (browserType.launchPersistentContext crash, exitCode=21). Все разделы пусты. Требуется повторный запуск.
 
 ---
 
 ## Тезисы
 
-TBD — извлечение не выполнено.
+TBD
 
-> **Открытый вопрос:** Что именно пересматривается в «ретесте» — оценка рынка, архитектура воркфлоу или результаты реальных внедрений?
+> Открытый вопрос: что именно утверждает автор о "триллионодолларовом воркфлоу" — это описание текущего рынка автоматизации или прогноз о конкретной категории [[Agentic Workflow]]?
 
 ---
 
 ## Терминология
 
-| RU | EN | Примечание |
-|----|----|------------|
-| TBD | TBD | — |
+| RU | EN | Определение | Wikilink |
+|----|----|-------------|---------|
+| TBD | — | — | — |
 
 ---
 
 ## Фреймворки и модели
 
-TBD — нет данных.
+TBD
+
+> Открытый вопрос: есть ли в видео явная модель или матрица для оценки [[Workflow Completion]] по индустриям?
 
 ---
 
 ## Формулы и цитаты
 
-TBD — нет данных.
+TBD
 
 ---
 
 ## Открытые вопросы
 
-- Каков тезис «retest» — опровержение или подтверждение trillion-dollar тезиса?
-- Какие [[Agentic Workflow]]-паттерны разбираются?
-- Есть ли связь с [[Workflow Completion]] и метриками ROI?
+- Как автор определяет границу между [[Implementation Layer]] и [[Systems of Record]] в контексте "триллионодолларового" тезиса?
+- Упоминается ли роль [[Forward Deployed Engineer]] или аналог как ключевой исполнитель?
+- Есть ли связь с тезисом [[Moat]] — за счёт чего возникает защищённая позиция?
 
 ---
 
 ## Что использовать для нашего портфеля
 
-TBD — содержание видео недоступно.
-
-Предположительно релевантно для позиционирования в роли [[Implementation Layer]]-партнёра: если видео пересматривает масштаб рынка agentic workflows, это прямой аргумент в питч для PE-канала и [[Business Object]]-ориентированных внедрений.
-
-> **Открытый вопрос:** После повторного извлечения — есть ли в видео конкретные отраслевые вертикали или benchmarks, которые можно использовать в коммерческих материалах?
+TBD — содержимое не извлечено. После успешного повторного прогона: оценить применимость центрального тезиса к позиционированию как [[Implementation Layer]]-игрока и к продаже через PE-канал ([[Frontier Alliance]] / [[Hyperscalers]]-партнёрства).
 
 ---
 
-## Метаданные обработки
+## Технические заметки
 
-- Инструмент: NotebookLM MCP
-- Ошибка: `browserType.launchPersistentContext` — Chrome завершался с exitCode=21 (процесс не найден)
-- Повторить: исправить Chrome headless окружение, затем перезапустить ingest
+Все пять вызовов NotebookLM MCP (`theses`, `terms`, `frameworks`, `formulas`, `open_questions`) завершились одной ошибкой: Chrome-процесс запускался и немедленно падал (`exitCode=21`). Возможные причины: заблокированный профиль, конфликт с уже открытым Chrome, или недостаток прав. Рекомендуется закрыть все окна Chrome и перезапустить MCP-сервер.
