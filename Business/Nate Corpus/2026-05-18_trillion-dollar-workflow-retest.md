@@ -1,80 +1,72 @@
 ---
-title: "Trillion-Dollar Workflow (Retest)"
+title: "Trillion-Dollar Workflow (retest)"
 slug: trillion-dollar-workflow-retest
-type: video
 source: "https://youtu.be/jwtpMSRAPAQ"
+type: video
 published: unknown
 processed: 2026-05-18
 status: extraction-failed
-themes:
-  - "[[Agentic Workflow]]"
-  - "[[Workflow Completion]]"
-  - "[[Implementation Layer]]"
+themes: []
 frameworks: []
 terminology: []
 ---
 
-# Trillion-Dollar Workflow — Retest
+# Trillion-Dollar Workflow (retest)
 
-> **Статус:** Извлечение через NotebookLM завершилось с ошибкой (Playwright/Chromium не запустился). Содержимое видео не получено. Структура заполнена по доступным метаданным.
-
-## Источник
-
-| Поле | Значение |
-|---|---|
-| URL | https://youtu.be/jwtpMSRAPAQ |
-| Опубликовано | unknown |
-| Обработано | 2026-05-18 |
-| Slug | `trillion-dollar-workflow-retest` |
+> [!warning] Извлечение данных не выполнено
+> NotebookLM вернул `Failed to authenticate session` по всем секциям.
+> Заметка создана как заглушка. Требуется повторная обработка источника.
 
 ---
 
-## Ключевые тезисы
+## Тезисы
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
-> **Открытый вопрос:** Что именно «retested» в этом видео по сравнению с оригинальным «trillion-dollar workflow» — методология, результаты, или конкретный стек инструментов?
+> Открытый вопрос: каков центральный аргумент видео — масштабирование [[Agentic Workflow]] до уровня «триллионного» рынка, или речь о конкретной архитектуре [[Workflow Completion]]?
 
 ---
 
-## Терминология
+## Термины и концепции
 
-| EN | RU | Примечание |
-|---|---|---|
-| TBD | TBD | — |
+| RU | EN | Определение | Wikilink |
+|----|----|-------------|----------|
+| TBD | — | — | — |
 
 ---
 
 ## Фреймворки и модели
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
-> **Открытый вопрос:** Какие конкретные workflow-паттерны рассматриваются — линейные цепочки, мульти-агентные сети, или что-то иное?
+> Открытый вопрос: упоминается ли в источнике [[Implementation Fabric]] или [[Implementation Layer]] как слой исполнения?
 
 ---
 
-## Формулы и цитаты
+## Формулы / цитаты
 
-TBD — данные не извлечены.
+TBD — извлечение не удалось.
 
 ---
 
 ## Открытые вопросы
 
-- TBD — не извлечены из источника.
+- Каков целевой рынок («триллион долларов») — автоматизация [[Systems of Record]], или новый класс [[Agentic Workflow]]?
+- Есть ли в источнике упоминание [[Moat]] через workflow-ownership?
+- Насколько тезисы совпадают с [[Workflow Completion]] как метрикой ценности?
 
 ---
 
 ## Что использовать для нашего портфеля
 
-TBD — невозможно синтезировать без содержимого видео.
+TBD — без данных интерпретация невозможна.
 
-> **Открытый вопрос:** Если видео описывает workflow стоимостью в триллион — применимо ли это к [[Implementation Layer]] для mid-market через [[Forward Deployed Engineer]] как канал, или это enterprise-only сценарий?
+> Открытый вопрос: если видео описывает «trillion-dollar» через [[Implementation Layer]] + [[Business Object]] ownership, это прямо применимо к нашей позиции AI-интегратора. Проверить после повторного извлечения.
 
 ---
 
-## Техническая заметка
+## Действия
 
-Все запросы к NotebookLM упали с `browserType.launchPersistentContext: Target page, context or browser has been closed`. Необходимо починить Playwright/Chromium профиль перед повторной обработкой:
-- Путь профиля: `C:\Users\Aleks\AppData\Local\notebooklm-mcp\Data\chrome_profile`
-- Рекомендация: пересоздать профиль или проверить права на запуск sandbox-процессов.
+- [ ] Повторить извлечение через NotebookLM (починить сессию)
+- [ ] Заполнить все TBD-разделы
+- [ ] Обновить YAML `themes` / `frameworks` / `terminology`
