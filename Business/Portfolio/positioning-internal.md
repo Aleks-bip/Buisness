@@ -24,7 +24,7 @@ No access to Obsidian vault from this session — proceeding directly with the d
 |---|---|
 | Размер | 50–500 сотрудников |
 | Структура владения | PE-backed (портфельная компания фонда прямых инвестиций) |
-| География | Европа |
+| География | Весь мир, кроме Китая и СНГ |
 | Стадия AI-зрелости | Экспериментировали с AI, но не вывели в production |
 | Типичные боли | "Купили ChatGPT Enterprise / Copilot, но ROI нулевой" |
 
